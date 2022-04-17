@@ -67,3 +67,42 @@
   height: 100%;
   object-fit: cover;
 }
+.projects-container {
+  display: flex;
+  flex-direction: row;
+  border: 5px solid;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  background-color: aqua;
+}
+
+.project-card {
+  width: 18rem;
+  margin: 10px;
+}
+.project-card img {
+  width: 90%;
+  object-fit: contain;
+}
+.project-info {
+  text-align: center;
+}
+.contact-me-container {
+  display: flex;
+  flex-direction: row;
+  background-color: bisque;
+}
+.contact-item {
+  margin: 10px;
+}
+
+@media (max-width: 700px) {
+  .nav-container,
+  .links,
+  .main,
+  .section-container,
+  .contact-me-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
