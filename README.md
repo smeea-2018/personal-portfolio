@@ -2,7 +2,7 @@
 
 # Personal Portfolio
 
-## Link to deploy website [here](https://smeea-2018.github.io/portfolio/)
+## Link to deploy website [here](https://smeea-2018.github.io/personal-portfolio/)
 
 ## Portfolio
 
@@ -45,7 +45,7 @@ HTML, CSS
 
 Following link provides the preview of the website.
 
-![The modified Horiseon webpage a header with navigation bar, image, cards with text and footer]()
+![]()
 
 ## How to run and install the project
 
