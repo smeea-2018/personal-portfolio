@@ -45,9 +45,9 @@ HTML, CSS
 
 Following link provides the preview of the website.
 
-![](./assets/images/aboutme.png)
-![](./assets/image/../images/firstproject.png)
-![](./assets/images
+![personal-portfolio header and about me section](./assets/images/aboutme.png)
+![personal-portfolio first project ](./assets/images/firstproject.png)
+![personal-portfolio projects, contact me and footer](./assets/images/projects.png)
 
 ## How to run and install the project
 
