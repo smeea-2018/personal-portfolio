@@ -34,36 +34,48 @@
 .section-container {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
+  align-items: center;
   border: 5px solid black;
 }
 
-.project-heading {
-  text-align: center;
+.about-me-image {
+  display: inline-block;
+  width: 300px;
 }
 .about-me-info {
   flex: 2;
   margin: 20px;
   padding: 20px;
+  width: 40%;
+
+  display: inline-block;
+  height: 40%;
+  /* object-fit: fill; */
 }
 
-.about-me-image {
+.profile-image {
   flex: 1;
+  /* background-color: pink; */
   margin: 20px;
   padding: 20px;
-  width: 60%;
-  height: 50%;
+  width: 90%;
+  height: 90%;
+  display: inline-block;
 }
 /*.profile-image {
   width: 60%;
   height: 50%;
 }
 */
+.project-heading {
+  text-align: center;
+}
 .first-project {
   border: 5px solid;
 }
 .first-project-image {
-  width: 100%;
+  width: 90%;
   height: 100%;
   object-fit: cover;
 }
@@ -102,7 +114,7 @@
   .main,
   .section-container,
   .contact-me-container {
-    display: flex;
+    /*display: flex;*/
     flex-direction: column;
   }
 }
