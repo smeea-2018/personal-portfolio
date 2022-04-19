@@ -42,8 +42,6 @@ body {
 }
 
 .about-me-image {
-  /* display: inline-block; */
-  /* width: 300px; */
   flex-basis: 50%;
 }
 .about-me-info {
@@ -53,27 +51,21 @@ body {
   width: 40%;
 
   height: 40%;
-  /* object-fit: fill; */
 }
-#portfolio-card a{
+#portfolio-card a {
   display: block;
-
 }
 
 .profile-image {
   flex: 1;
-  /* background-color: pink; */
+
   margin: 20px;
   padding: 20px;
   width: 90%;
   height: 90%;
   display: inline-block;
 }
-/*.profile-image {
-  width: 60%;
-  height: 50%;
-}
-*/
+
 .project-heading {
   text-align: center;
 }
@@ -104,13 +96,11 @@ body {
   width: 100%;
   object-fit: contain;
 }
-.project-description{
-  padding:1%;
-  
+.project-description {
+  padding: 1%;
 }
 .project-info {
-  padding:5%;
-  /* text-align: center; */
+  padding: 5%;
 }
 .contact-me-container {
   display: flex;
@@ -127,13 +117,12 @@ body {
   .main,
   .section-container,
   .contact-me-container {
-    /*display: flex;*/
     flex-direction: column;
   }
-  .about-me-info{
+  .about-me-info {
     width: 90%;
   }
-  .profile-image{
-    margin:0;
+  .profile-image {
+    margin: 0;
   }
 }
