@@ -92,9 +92,19 @@ body {
   background-color: dfe7fd;
   margin: 10px;
 }
-.project-card img {
+
+.homeworkimage {
+  max-height: 300px;
   width: 100%;
-  object-fit: contain;
+}
+
+.project-card img {
+  max-height: 300px;
+  width: 100%;
+}
+
+.image-link {
+  display: block;
 }
 .project-description {
   padding: 1%;
