@@ -2,6 +2,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Portfolio</title>
     <script
@@ -12,33 +18,58 @@
 
   <body>
     <!-- Header with nav bar -->
-    <header class="header">
-      <nav class="nav-container">
+    <header class=" text-center text-white header">
+    
+        <!-- Navbar -->
+        <nav class="  navbar navbar-expand-lg navbar-light bg-white ">
+          <div class="container-fluid ">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-mdb-toggle="collapse"
+              data-mdb-target="#navbarExample01"
+              aria-controls="navbarExample01"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse justify-content-around bg-info text-white " id="navbarExample01">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+               <li class="nav-item">
+                  <a class="nav-link active" href="#about-me" >About Me</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#c-me">Contact Me</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <!-- Navbar -->
+      </header>
+      <!-- <nav class="nav-container">
         <div class="name">Smeea</div>
         <div class="links">
           <div><a href="#about-me">About me</a></div>
           <div><a href="#projects">Projects</a></div>
           <div><a href="#c-me">Contact Me</a></div>
         </div>
-      </nav>
+      </nav> -->
     </header>
     <main class="main">
       <!--About me-->
-      <section id="about-me" class="section-container">
-        <div class="about-me-image">
-          <img
-            class="profile-image"
-            src="./assets/images/woman.png"
-            alt="avatar of a woman"
-          />
-        </div>
-        <div class="about-me-info">
-          <h1>Smeea</h1>
-          <p>
-            A highly motivated and enthusiastic team player, I am keen to pursue
-            a career as a web developer.
-          </p>
-          <h2>Skills</h2>
+
+      <section id="about-me" class=" section-container">
+        <!-- Jumbotron -->
+          <div class="p-5 text-center bg-light">
+    <h6 class="mb-3">Smeea Arshad</h6>
+    <p class="mb-3"> A highly motivated and enthusiastic team player, I am keen to pursue
+            a career as a web developer.</p>
+             <h6>Skills</h6>
           <ul>
             <li>HTML</li>
             <li>CSS</li>
@@ -47,14 +78,14 @@
             <li>SQL</li>
             <li>Python</li>
           </ul>
-          <p>
+   <p>
             <br />
             You can find my CV
             <a href="./assets/files/Smeea Arshad ACV.pdf" target="_blank"
               >here</a
             >
           </p>
-        </div>
+  
       </section>
 
       <!-- Projects -->
@@ -81,7 +112,7 @@
                   This app creates an event card detailing host, venue, food
                   served and music played.
                   <a
-                    href="https://github.com/Am0031/event-planning"
+                    href="https://github.com/smeea-2018/event-planning"
                     target="_blank"
                     ><i class="fa-brands fa-github"></i>
                   </a>
@@ -202,7 +233,27 @@
       </section>
       <!-- Contact ME -->
       <section id="c-me" class="contact-me">
-        <div>
+        <footer class="bg-dark text-center text-white">
+  <!-- Grid container -->
+  <div class="container p-4">
+    <!-- Section: Social media -->
+    <section class="mb-4">
+      <!-- Facebook -->
+      <a class="btn btn-outline-light btn-floating m-1" href="mailto:smeeaa131@gmail.com" role="button">
+        <i class="fa-solid fa-at"></i
+            ></a>
+
+      <!-- Linkedin -->
+      <a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/smeea-arshad-0059a2168/" role="button"
+        ><i class="fab fa-linkedin-in"></i
+      ></a>
+
+      <!-- Github -->
+      <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/smeea-2018" role="button"
+        ><i class="fab fa-github"></i
+      ></a>
+    </section>
+        <!-- <div>
           <h2 class="project-heading">Contact Me</h2>
         </div>
         <div class="contact-me-container">
@@ -216,21 +267,31 @@
               >linkedin: <i class="fa-brands fa-linkedin"></i
             ></a>
           </div>
-          <!-- <div class="contact-item">
+         <div class="contact-item">
             <a href="tel:+441234567890"
               >+44 1234 567890<i class="fa-solid fa-phone"></i
             ></a>
-          </div> -->
+          </div> 
           <div class="contact-item">
             <a href="https://github.com/smeea-2018"
               >Github<i class="fa-brands fa-github"></i
             ></a>
           </div>
-        </div>
+        </div> -->
       </section>
     </main>
     <footer class="footer">
-      <p>© 2022 Smeea</p>
+      <p class="text-center">© 2022 Smeea</p>
     </footer>
+    <script>
+function myProjects() {
+  const projects = document.getElementById("projects-button");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
   </body>
 </html>

@@ -2,21 +2,30 @@ body {
   padding: 10px;
   background-color: dfe7fd;
 }
+
+ul {
+  list-style-type: none;
+}
+
+ul li {
+  display: inline;
+}
 .header {
-  border: 5px solid black;
+  border: 5px solid 0a9396;
+  color: black;
 }
 /*.header-img {
   width: 50px;
   height: 50px;
 }*/
-.nav-container {
+/* .nav-container {
   display: flex;
   margin-bottom: 10px;
   flex-direction: row;
 }
 
 .links {
-  /*flex: 2;*/
+  /*flex: 2;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
@@ -31,19 +40,19 @@ body {
   align-content: flex-start;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-weight: bold;
-}
-.section-container {
+} */
+/* .section-container {
   margin-top: 10px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  border: 5px solid black;
-}
+  /* border: 5px solid black; 
+} */
 
-.about-me-image {
+/* .about-me-image {
   flex-basis: 50%;
-}
+} */
 .about-me-info {
   flex: 2;
   margin: 20px;
@@ -69,9 +78,9 @@ body {
 .project-heading {
   text-align: center;
 }
-.first-project {
+/* .first-project {
   border: 5px solid;
-}
+} */
 .first-project-image {
   width: 100%;
   height: 100%;
