@@ -18,7 +18,7 @@
 
   <body>
     <!-- Header with nav bar -->
-    <header class=" text-center text-white header">
+    <header>
     
         <!-- Navbar -->
         <nav class="  navbar navbar-expand-lg navbar-light bg-white ">
@@ -51,18 +51,8 @@
         </nav>
         <!-- Navbar -->
       </header>
-      <!-- <nav class="nav-container">
-        <div class="name">Smeea</div>
-        <div class="links">
-          <div><a href="#about-me">About me</a></div>
-          <div><a href="#projects">Projects</a></div>
-          <div><a href="#c-me">Contact Me</a></div>
-        </div>
-      </nav> -->
-    </header>
     <main class="main">
       <!--About me-->
-
       <section id="about-me" class=" section-container">
         <!-- Jumbotron -->
           <div class="p-5 text-center bg-light">
@@ -85,9 +75,9 @@
               >here</a
             >
           </p>
+          <button id = "projects-button" onclick="myProjects()">projects</button>
   
       </section>
-
       <!-- Projects -->
       <section id="projects">
         <h2 class="project-heading">Projects</h2>
@@ -230,68 +220,32 @@
             </div>
           </div>
         </div>
-      </section>
-      <!-- Contact ME -->
-      <section id="c-me" class="contact-me">
-        <footer class="bg-dark text-center text-white">
+      </section>    
+    </main>
+    <!-- Contact ME -->
+    
+    <footer id = "c-me" class="bg-dark text-center text-white">
   <!-- Grid container -->
-  <div class="container p-4">
+     <div class="container p-4 bg-dark">
     <!-- Section: Social media -->
-    <section class="mb-4">
+       <section class="mb-4">
       <!-- Facebook -->
-      <a class="btn btn-outline-light btn-floating m-1" href="mailto:smeeaa131@gmail.com" role="button">
-        <i class="fa-solid fa-at"></i
-            ></a>
+         <a class="btn btn-outline-light btn-floating m-1" href="mailto:smeeaa131@gmail.com" role="button">
+            <i class="fa-solid fa-at"></i
+         ></a>
 
       <!-- Linkedin -->
-      <a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/smeea-arshad-0059a2168/" role="button"
-        ><i class="fab fa-linkedin-in"></i
-      ></a>
+          <a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/smeea-arshad-0059a2168/" role="button"
+           ><i class="fab fa-linkedin-in"></i
+        ></a>
 
       <!-- Github -->
-      <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/smeea-2018" role="button"
-        ><i class="fab fa-github"></i
-      ></a>
-    </section>
-        <!-- <div>
-          <h2 class="project-heading">Contact Me</h2>
-        </div>
-        <div class="contact-me-container">
-          <div class="contact-item">
-            <a href="mailto:smeeaa131@gmail.com"
-              >email me <i class="fa-solid fa-at"></i
-            ></a>
-          </div>
-          <div class="contact-item">
-            <a href="https://www.linkedin.com/in/smeea-arshad-0059a2168/"
-              >linkedin: <i class="fa-brands fa-linkedin"></i
-            ></a>
-          </div>
-         <div class="contact-item">
-            <a href="tel:+441234567890"
-              >+44 1234 567890<i class="fa-solid fa-phone"></i
-            ></a>
-          </div> 
-          <div class="contact-item">
-            <a href="https://github.com/smeea-2018"
-              >Github<i class="fa-brands fa-github"></i
-            ></a>
-          </div>
-        </div> -->
-      </section>
-    </main>
-    <footer class="footer">
-      <p class="text-center">© 2022 Smeea</p>
-    </footer>
-    <script>
-function myProjects() {
-  const projects = document.getElementById("projects-button");
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
-  }
-}
-</script>
+        <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/smeea-2018" role="button"
+           ><i class="fab fa-github"></i
+       ></a>
+       </section>
+      </div>
+   </footer>
+ 
   </body>
 </html>
