@@ -44,6 +44,7 @@ ul li {
 .project-card img {
   max-height: 300px;
   width: 100%;
+  min-height: 300px;
 }
 
 .image-link {
